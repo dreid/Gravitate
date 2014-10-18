@@ -24,7 +24,7 @@
     NSString *value = [values valueForIdentifier:identifier];
 
     if([self hasGravatar:value]) {
-        return [NSString stringWithFormat:@"Sync gravatar: %@", value];
+        return @"Set image from gravatar.";
     } else {
         return nil;
     }
