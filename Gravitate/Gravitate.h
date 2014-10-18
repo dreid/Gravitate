@@ -28,4 +28,6 @@
 // above, this method is passed information about the data item rolled over.
 - (BOOL)shouldEnableActionForPerson:(ABPerson *)person identifier:(NSString *)identifier;
 
+- (NSURL *)gravatarURL:(NSString *)email;
+- (BOOL)hasGravatar:(NSString *)email;
 @end
